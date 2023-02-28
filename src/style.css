@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700&family=Poppins:wght@400;700&family=Roboto+Flex:opsz,wght@8..144,400;8..144,700&display=swap');
+
+:root {
+    --main-color: #88BFE8;
+    --second-color: #FFFFFF;
+    --background-color: #01162D;
+    --card-color: linear-gradient(#213356, #0C182F);
+
+    --main-font: 'Poppins', sans-serif;
+    --second-font: 'Plus Jakarta Sans', sans-serif;
+    --third-font: 'Roboto Flex', sans-serif;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: var(--main-font);
+    color: var(--second-color);
+    font-weight: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar .wrapper {
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .wrapper .logo {
+    width: 1.934rem;
+    margin-top: 25px;
+    margin-left: 57.03px;
+    margin-right: 27.23px;
+}
+
+.navbar .wrapper .title {
+    margin-top: 30px;
+}
+
+.navbar .wrapper .profile {
+    margin-left: 885.48px;
+    margin-top: 22.59px;
+}
+
+.navbar .wrapper .name {
+    margin-top: 22px;
+    margin-right: 87.29px;
+    margin-left: 20.22px;
+
+}
+
+.text-wrapper {
+    margin-left: 391px;
+    margin-right: 392px;
+    margin-top: 50px;
+}
+
+span {
+    color: var(--main-color);
+}
+
+.text {
+    font-size: 46px;
+}
+
+.write-wrap {
+    margin-top: 30px;
+    width: 424px;
+    height: 189.82px;
+    border-radius: 8px;
+    border: 2px solid var(--main-color);
+}
+
+.write-wrap p {
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 16px;
+    font-family: var(--main-font);
+    font-weight: 400;
+}
+
+.text-card {
+    width: 675px;
+    height: 158.96px;
+    border-radius: 158.96px;
+}
+
+.invisible {
+    border: none;
+    background-color: var(--background-color);
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 16px;
+    font-family: var(--main-font);
+    font-weight: 400;
+
+    width: 390px;
+}
+
+input[type="text"]:focus {
+    color: #fff;
+    outline: none;
+}
+
+input[type="text"]::placeholder {
+color: #fff;
+}  
+
